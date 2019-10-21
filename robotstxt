@@ -1,0 +1,47 @@
+# Google Image/Video Crawler Setup
+# User-agent: Googlebot-Image
+User-agent: Googlebot-Video
+Disallow: /
+
+# istenmeyen bot bloklamasi
+User-agent: YisouSpider
+User-agent: sogou
+User-agent: Sogou
+User-agent: Y360Spider
+User-agent: Sosospider
+User-agent: NaverBot
+User-agent: Yeti
+User-agent: moget
+User-agent: ichiro
+User-agent: RedBot
+User-agent: AhrefsBot
+User-agent: xovibot
+User-agent: HTTrack
+User-agent: AddThis
+User-agent: Slurp
+User-agent: yacybot
+User-agent: archive.org_bot
+User-agent: dotbot
+User-agent: Nutch
+User-agent: Springbot
+User-agent: ShopSpring SpringBot
+User-agent: MegaIndex.ru
+User-agent: MegaIndex.ru/
+User-agent: MegaIndex.ru/2.0
+User-agent: Mozilla/5.0 (compatible; MegaIndex.ru/2.0; +https://www.megaindex.ru/?tab=linkAnalyze)
+User-agent: MJ12
+User-agent: Mozilla/5.0 (compatible; MJ12bot/v1.4.5; http://www.majestic12.co.uk/bot.php?+)
+User-agent: wotbox
+User-agent: ltx71 - (http://ltx71.com/)
+User-agent: ScoutJet
+User-agent: Mozilla/5.0 (compatible; Blekkobot; ScoutJet; +http://blekko.com/about/blekkobot)
+Disallow: /
+
+# Generic ayar
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /bin/
+Disallow: /cache/
+
+User-agent: *
+Sitemap: https://siteadi.com/sitemap.xml
